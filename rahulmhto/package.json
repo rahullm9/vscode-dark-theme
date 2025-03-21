@@ -1,0 +1,37 @@
+{
+  "name": "rahulmhto",
+  "displayName": "Vivid Vibe",
+  "description": "Cool colorfull theme",
+  "version": "0.0.7",
+  "publisher": "rahulmhto",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rahullm9/rahulmhto-dark-theme.git"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Vivid-Vibe-by-rahulmhto",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vivid-vibes-color-theme.json"
+      },
+      {
+        "label": "ChatGpt theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/chatgpt-theme-color-theme.json"
+      },
+      {
+        "label": "Moon night Darak Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/moon-night-color-theme.json"
+      }
+    ]
+  }
+}
